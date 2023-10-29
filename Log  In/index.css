@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+    .wrrraa {
+        display: none;
+    }
+}
+
+.wrrraa{
+    box-shadow: 0 1px 0 0 #ebedf2;
+}
+
+@media (min-width: 768px) {
+    .malik {
+        padding: 40px 0 331px 0;
+    }
+}
+
+.satin {
+    width: 100%;
+    padding: 64px 24px;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .satin {
+        width: 432px;
+        padding: 40px 40px 48px 40px;
+        margin: auto;
+        box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.08);
+    }
+}
+
+.kapo {
+    font-size: 15px;
+    color: #636e85;
+    margin: 16px 0 32px;
+}
+
+.wrot {
+    letter-spacing: -0.5px;
+    background: none;
+    border: none;
+    color: #1663dd;
+    padding: 0;
+    font-weight: 400;
+}
+
+.lal {
+    margin-bottom: 24px;
+}
+
+
+.flint {
+    width: 100%;
+    border: 2px #ccc solid;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+}
+
+.kwesu {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 1.25px;
+    color: #636e85;
+}
+
+.wins {
+    width: 100%;
+    height: 48px;
+    margin: 8px 0 4px 0;
+    border: 1px solid #636e85;
+    border-radius: 4px;
+}
+
+.with {
+    font-size: 14px;
+    margin: 32px 0;
+}
+
+.twin {
+    text-decoration: none;
+}
+
+.xer {
+    opacity: 0.5;
+    width: 100%;
+    height: 48px;
+    background: #272c35;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.STD {
+    margin-top: 110px;
+    font-size: 14px; 
+    text-align: center;
+    color: #8B94A7;
+}
+
+.STD a {
+    text-decoration: none;
+}
+
+.winx {
+    padding-bottom: 48px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.awon_ota {
+    padding: 0 10px;
+    color: #636e85;
+    text-decoration: none;
+}
+
+.awon_ota:hover {
+    color: darkgreen;
+}
+
+.wata {
+    padding-right: 4px;
+    margin-top: -2px;
+}
+
+.ota {
+    color: #636e85;
+}
+
+.mack {
+    box-shadow: gray 0px 0px 5px;
+    width: 17%;
+    /* overflow: hidden; */
+    position: fixed;
+    bottom: 14px;
+    right: -186px;
+    border-radius: 2px;
+    padding: 10px 10px;
+    /* transition: right 0.3s ease 0s; */
+}

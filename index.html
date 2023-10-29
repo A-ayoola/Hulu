@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream TV and Movies Live and Online | Hulu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(11,12,15);">
+    <div class="header-navbar">
+        <div>
+            <span class="navbar-text">Take control of how you watch. Get Hulu + Live TV with Disney+ and ESPN+ for $49.99/mo
+                for your first 3
+                months.
+            </span>
+            <a class="navbar-link" onclick="GTD()">GET THIS DEAL</a>
+            <div class="navbar-sub-text">
+                <span>Limited time only. Add'l terms apply.</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="hulu-logo" src="/Asset/Images/hulu-logo.svg" title="hulu" alt="">
+                <div class="navbar-toggler-container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse longo" id="navbarSupportedContent">
+                    <a href="Log  In/index.html">
+                        <button class="log-in-button">LOG IN</button>
+                    </a>
+                    <button class="login" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">LOG
+                        IN</button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Log In</h3>
+                                <div class="modal-main-text">
+                                    <span>You will use this email and password to log into your accounts for all your
+                                        favorite
+                                        services across The Walt Disney Family of Companies, including Disney+, Hulu and
+                                        ESPN+.</span>
+                                    <button type="button" class="modal-additional-info">Learn more</button>
+                                </div>
+                                <div class="input-container">
+                                    <label for="Email">
+                                        <div class="input-form-container">
+                                            <span>EMAIL</span>
+                                        </div>
+                                    </label>
+                                    <input class="input" type="Email">
+                                </div>
+                                <div class="input-container">
+                                    <label for="Email">
+                                        <div class="input-form-container">
+                                            <span>PASSWORD</span>
+                                        </div>
+                                    </label>
+                                    <input class="input" type="Email">
+                                </div>
+                                <div class="modal-second-link-container">
+                                    <a class="modal-second-link" href="https://auth.hulu.com/find_account">Forgot
+                                        your email
+                                        or
+                                        password?</a>
+                                </div>
+                                <button class="modal-log-in-button">LOG IN</button>
+                                <div class="modal-last-link-container">
+                                    <div>
+                                        <span>Don't have an account?</span>
+                                    </div>
+                                    <a href="https://signup.hulu.com/go/one-hulu">Start your free
+                                        trial</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="library">
+            <div class="container-fluid">
+                <div class="wrap"></div>
+                <div class="row">
+                    <div class="col-3 tap regular-bundle">
+                        <div class="gate">
+                            <span class="mate">DISNEY BUNDLE DUO BASIC</span>
+                        </div>
+                        <div>
+                            <img class="imagine"
+                                src="/Asset/Images/ckdz36xqi7zz019ym0b2seyqk-dplus-logo-0-1-2-0.full.png">
+                        </div>
+                        <div>
+                            <span class="water">Both with ads, for $9.99/month.</span>
+                        </div>
+                        <div class="colos">
+                            <button class="wow">
+                                <span>
+                                    GET THEM BOTH
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="gate">
+                            <span class="mate">DISNEY BUNDLE DUO BASIC</span>
+                        </div>
+                        <div>
+                            <img class="win" src="/Asset/Images/original (5).png">
+                        </div>
+                        <div>
+                            <span class="water">Both with ads, for $9.99/month.</span>
+                        </div>
+                        <div class="colos">
+                            <button class="wow">
+                                <span>GET THEM BOTH</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="gate">
+                            <span class="mate">DISNEY BUNDLE TRIO BASIC</span>
+                        </div>
+                        <div>
+                            <img class="nin" src="/Asset/Images/ckdz36xqi7zz019ym0b2seyqk-dplus-logo-0-1-2-0.full.png">
+                        </div>
+                        <div>
+                            <span class="water">All with ads, for $12.99/month.*</span>
+                        </div>
+                        <div class="colos">
+                            <button class="wow">
+                                <span>GET ALL THREE</span>
+                            </button>
+                        </div>
+                        <div>
+                            <span class="KPK">*Price will increase to $14.99/month on 10/12/2023.</span>
+                        </div>
+                    </div>
+                    <div class="col-3 clap regular-bundle rot">
+                        <div class="gate">
+                            <span class="mate">DISNEY BUNDLE TRIO BASIC</span>
+                        </div>
+                        <div>
+                            <img class="imagine"
+                                src="/Asset/Images/ckdz36xqi7zz019ym0b2seyqk-dplus-logo-0-1-2-0.full.png">
+                        </div>
+                        <div>
+                            <span class="water">All with ads, for $12.99/month.*</span>
+                        </div>
+                        <div class="colos">
+                            <button class="wow">
+                                <span>
+                                    GET ALL THREE
+                                </span>
+                            </button>
+                        </div>
+                        <div>
+                            <span class="KPK">*Price will increase to $14.99/month on 10/12/2023.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="terms">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <span class="peace">Terms apply</span>
+                            </div>
+                            <br>
+                            <div>
+                                <span>
+                                    <a style="color: white;"
+                                        href="https://www.hulu.com/signup/go/one-hulu?from=welcome&utm_source=welcome-masthead-text-link">Sign
+                                        up for Hulu only</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="trachea">
+        <div>
+            <span class="m">INCLUDED IN ALL PLANS</span>
+            <h2 class="o">All The TV You Love</h2>
+            <p class="h">Watch full seasons of exclusive streaming series, current-season episodes, hit movies, Hulu
+                Originals, kids shows, and more.
+            </p>
+        </div>
+        <div class="container b">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+                    <div>
+                        <br>
+                        <div class="card text-bg-dark">
+                            <img src="/Asset/Images/original(1).png" class="card-img" alt="Family Guy Library Poster">
+                            <div class="card-img-overlay">
+                                <span class="card-title">Past & Current Seasons</span>
+                                <h3 class="card-text">TV Shows</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+                    <div>
+                        <br>
+                        <div class="card text-bg-dark">
+                            <img src="/Asset/Images/original (2).jpeg" class="card-img" alt="Prey - Library Poster">
+                            <div class="card-img-overlay">
+                                <span class="card-title">New & Classic</span>
+                                <h3 class="card-text">Movies</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+                    <div>
+                        <br>
+                        <div class="card text-bg-dark">
+                            <img src="/Asset/Images/original (3).png" class="card-img"
+                                alt="Only Murders in the Building - Library Poster">
+                            <div class="card-img-overlay">
+                                <span class="card-title">Groundbreaking</span>
+                                <h3 class="card-text">Hulu Originals</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3">
+                    <div>
+                        <br>
+                        <div class="card text-bg-dark">
+                            <img src="/Asset/Images/original (4).png" class="card-img"
+                                alt="The Sopranos Library Poster">
+                            <div class="card-img-overlay">
+                                <span class="card-title">Add-on</span>
+                                <h3 class="card-text">Premiums</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="spinall">Premium network add-ons available for an
+                        additional cost
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kill">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="see">
+                        <span class="riga">HULU + LIVE TV, NOW WITH DISNEY+ AND ESPN+, ALL WITH ADS</span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h2 class="what_a_foul">
+                        <span class="wari">Live TV Makes It Better</span>
+                    </h2>
+                </div>
+                <div class="col-12">
+                    <h3 class="twais">
+                        Get 90+ top channels on Hulu (With
+                        Ads) + Live TV with your favorite live sports, news, and events - plus the entire Hulu
+                        streaming
+                        library. With Unlimited DVR, store Live TV recordings for up to nine months and fast-forward
+                        through
+                        your DVR content. Access endless entertainment with Disney+ and live sports with
+                        ESPN+.
+                    </h3>
+                </div>
+                <div class="col-12">
+                    <div class="capitano">
+                        <span class="romano">For a limited time, get Hulu + Live TV for $49.99/month for 3
+                            months.*</span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div>
+                        <button class="haha">
+                            <span>GET HULU + LIVE TV</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="wayne">*Hulu (With Ads) + Live TV plan only. $49.99/mo for
+                        3 mos, then $76.99/mo (or then-current regular monthly price). Ends 10/11/23. Eligibility
+                        restrictions and terms apply. Regional restrictions, blackouts and Live TV terms apply.
+                        Access
+                        content from each service separately. Location data required to watch certain content.
+                        Unlimited DVR
+                        recording is not available for on-demand shows.
+                        <button class="flink">
+                            <span>See details</span>
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <button class="ink">
+                <span class="think">VIEW CHANNELS IN YOUR AREA →</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Double-click on links to go the next link -->
+    <div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="live-sports">
+                <div class="wacker">
+                    <div class="batter">
+                        <div class="klaus">
+                            <ul class="nav nav-tab">
+                                <li class="nav-item">
+                                    <a class="link active"
+                                        style="color: white; font-weight: bold; text-decoration: none;"
+                                        data-bs-toggle="tab" href="#live-sports">LIVE
+                                        SPORTS</a>
+                                    <div class="activebar"></div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link"
+                                        style="color: hsla(0,0%,100%,.4); padding-left: 25px; text-decoration: none; font-weight: bold;"
+                                        data-bs-toggle="tab" href="#breaking-news">BREAKING NEWS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link"
+                                        style="color: hsla(0,0%,100%,.4); padding-left: 25px; text-decoration: none; font-weight: bold;"
+                                        data-bs-toggle="tab" href="#biggest-event">BIGGEST
+                                        EVENTS</a>
+                                </li>
+                            </ul>
+                            <div class="lsa">
+                                <h1 class="ls">Live Sports</h1>
+                            </div>
+                            <div class="sub-text">
+                                <span class=" tint">Catch your games at home or on the go. Stream live games from
+                                    major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more.
+                                    Includes top
+                                    local and national sports networks like ABC, CBS Sports Network, ESPN, FOX, FS1,
+                                    TNT,
+                                    NFL Network and more.
+                                </span>
+                            </div>
+                            <div class="logos">
+                                <div class="bless">
+                                    <img src="/Asset/Images/Live Sports/original (4).png" width="100%"
+                                        alt="CBS Sports Network Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Live Sports/original (5).png" width="100%"
+                                        alt="ESPN Network Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Live Sports/original.svg" width="100%" alt="FS1 Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Live Sports/original (6).png" width="100%"
+                                        alt="NFL Network Logo">
+                                </div>
+                            </div>
+                            <p class="work">Live TV plan required. Regional restrictions, blackouts and
+                                additional
+                                terms apply.
+                                <a class="sack" href="">See details.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="breaking-news">
+                <div class="wacker">
+                    <div class="batter">
+                        <div class="klaus">
+                            <ul class="nav nav-tab">
+                                <li class="nav-item">
+                                    <a class="link active"
+                                        style="color: hsla(0,0%,100%,.4); font-weight: bold; padding-right: 25px;text-decoration: none;"
+                                        data-bs-toggle="tab" href="#live-sports">LIVE
+                                        SPORTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" style="color: white; text-decoration: none; font-weight: bold;"
+                                        data-bs-toggle="tab" href="#breaking-news">BREAKING NEWS</a>
+                                    <div class="activebar"></div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link"
+                                        style="color: hsla(0,0%,100%,.4); padding-left: 25px; text-decoration: none; font-weight: bold;"
+                                        data-bs-toggle="tab" href="#biggest-event">BIGGEST
+                                        EVENTS</a>
+                                </li>
+                            </ul>
+                            <div class="lsa">
+                                <h1 class="ls">Breaking News</h1>
+                            </div>
+                            <div class="sub-text">
+                                <span class="tint">Keep pace with what's going on locally and globally with trusted
+                                    opinions
+                                    from all the top news networks</span>
+                            </div>
+                            <div class="logos">
+                                <div class="bless">
+                                    <img src="/Asset/Images/Breaking News/original (7).png" width="100%"
+                                        alt="ABC News Live Network Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Breaking News/original (1).svg" width="100%"
+                                        alt="CNN Network Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Breaking News/original (8).png" width="100%"
+                                        alt="MSNBC Network Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Breaking News/original (2).svg" width="100%"
+                                        alt="Fox News Network Logo">
+                                </div>
+                            </div>
+                            <p class="work">Live TV plan required. Regional restrictions, blackouts and additional
+                                terms apply.
+                                <a class="sack" href="">See details.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="biggest-event">
+                <div class="wacker">
+                    <div class="batter">
+                        <div class="klaus">
+                            <ul class="nav nav-tab">
+                                <li class="nav-item">
+                                    <a class="link go-left active"
+                                        style="color: hsla(0,0%,100%,.4); font-weight: bold; padding-right: 25px;text-decoration: none;"
+                                        data-bs-toggle="tab" href="#live-sports">LIVE
+                                        SPORTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link"
+                                        style="color: hsla(0,0%,100%,.4); text-decoration: none; padding-right: 25px; font-weight: bold;"
+                                        data-bs-toggle="tab" href="#breaking-news">BREAKING NEWS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="link" style="color: white; text-decoration: none; font-weight: bold;"
+                                        data-bs-toggle="tab" href="#biggest-event">BIGGEST
+                                        EVENTS</a>
+                                    <div class="activebar"></div>
+                                </li>
+                            </ul>
+                            <div class="lsa">
+                                <h1 class="ls">Biggest Events</h1>
+                            </div>
+                            <div class="sub-text">
+                                <span class="tint">Spectacular, can't-miss moments like the Olympics, Grammys®,
+                                    Oscars®,
+                                    Emmys®,
+                                    and more.</span>
+                            </div>
+                            <div class="logos">
+                                <div class="bless">
+                                    <img src="/Asset/Images/Biggest Events/original (9).png" width="100%"
+                                        alt="Emmys Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Biggest Events/original (10).png" width="100%"
+                                        alt="Golden Globe Awards - Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Biggest Events/original (11).png" width="100%"
+                                        alt="Grammy Awards Logo">
+                                </div>
+                                <div class="bless">
+                                    <img src="/Asset/Images/Biggest Events/original (4).png" width="100%"
+                                        alt="The Oscars Logo">
+                                </div>
+                            </div>
+                            <p class="work">Live TV plan required. Regional restrictions, blackouts and additional
+                                terms apply.
+                                <a class="sack" href="">See details.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chart">
+        <div class="container">
+            <div class="header">
+                <h2 class="header-text">Select Your Plan</h2>
+            </div>
+            <div class="header-sub-text">No hidden fees, equipment rentals, or installation
+                appointments.
+                <br>
+                <b>Switch plans or cancel anytime.**</b>
+            </div>
+            <div class="divider"></div>
+            <table class="table table-dark" style="background-color: rgb(11,12,15);">
+                <thead>
+                    <tr>
+                        <th scope="col"
+                            style="background-color: rgb(11,12,15); display: flex; padding-left: 100px; padding-top: 70px; padding-bottom: 70px; font-size: 15px;">
+                            <div>
+                                <span>BASE PLANS</span>
+                                <img src="/Asset/Images/hulu-logo.svg" alt="">
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox
+                                    input</label>
+                            </div>
+                            <div style="padding-left: 20px;">
+                                <span>BUNDLE / SAVE</span>
+                                <img src="/Asset/Images/bundles-dark.svg" alt="">
+                            </div>
+                        </th>
+                        <th scope="col" style="background-color: rgb(11,12,15); text-align: center; ">
+                            <button
+                                style="background-color: rgb(113,231,132); border-radius: 50px; height: 40px; font-size: 10px; font-weight: bold; width: 40%; border: none; margin-bottom: 20px;">MOST
+                                POPULAR</button>
+                            <p style="text-align: center; color: #bec0c2;">30 DAY FREE TRIAL <br> Hulu (With Ads)</p>
+                            <button
+                                style="background-color: white; border: none; width: 100%; height: 50px; border-radius: 10px;"><b>$7.99/MONTH</b></button>
+                        </th>
+                        <th scope="col" style="background-color: rgb(11,12,15); text-align: center;">
+                            <p style="text-align: center; color: #bec0c2;">30 DAY FREE TRIAL <br> Hulu (No Ads)</p>
+                            <button
+                                style="background-color: white; border: none; width: 100%; height: 50px; border-radius: 10px;"><b>$17.99/MONTH</b></button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Monthly price</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; font-size: 14px; font-weight: 400;">
+                            $7.99/mo.</td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; font-size: 14px; font-weight: 400;">
+                            $17.99/mo.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Streaming Library with tons of TV
+                            episodes and movies</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Most new episodes the day after they
+                            air†</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Access to award-winning Hulu Originals
+                        </th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Watch on your favorite devices,
+                            including TV, laptop, phone, or tablet
+                        </th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Up to 6 user profilesUp to 6 user
+                            profiles</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Watch on 2 different screens at the same time</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            Download and watch</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            —</td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"
+                            style="background-color: rgb(11,12,15); font-size: 14px; font-weight: 400; padding-top: 45px; padding-bottom: 45px;">
+                            No ads in streaming library</th>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            —</td>
+                        <td
+                            style="background-color: rgb(11,12,15); text-align: center; padding-top: 45px; padding-bottom: 45px;">
+                            <img src="/Asset/Images/Pricing_Checkmark_green-light.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="background-color: rgb(11,12,15); font-size: 10px; font-weight: 400;">†For
+                            current-season shows in the
+                            streaming library only<br>
+                            **Switches from Live TV to Hulu take effect as of the next billing cycle
+                        </th>
+                        <td style="background-color: rgb(11,12,15); opacity: 0;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aut repellendus dolores
+                            repellat enim quibusdam ea similique soluta, distinctio assumenda itaque molestias obcaecati
+                            porro, est et minima earum sequi praesentium!
+                        </td>
+                        <td style="background-color: rgb(11,12,15); opacity: 0;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aut repellendus dolores
+                            repellat enim quibusdam ea similique soluta, distinctio assumenda itaque molestias obcaecati
+                            porro, est et minima earum sequi praesentium!
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="ads-on-text"><b>Show Add-ons</b>
+                <img class="chevron-icon" src="/Asset/Images/arrow-204-xl.png" alt="">
+            </div>
+            <div class="divider-two"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-lists container d-flex flex-wrap gap-3">
+                <ul>
+                    <li class="list-head">BROWSE</li>
+                    <li><a href="https://www.hulu.com/content" title="Streaming Library">Streaming Library</a></li>
+                    <li><a href="https://www.hulu.com/live-tv" title="Live TV">Live TV</a></li>
+                    <li><a href="https://www.hulu.com/live-news" title="Live News">Live News</a></li>
+                    <li><a href="https://www.hulu.com/live-sports" title="Live Sports">Live Sports</a></li>
+                </ul>
+                <ul>
+                    <li class="list-head" style="opacity: 0;" title="BROWSE">BROWSE</li>
+                    <li><a href="https://www.hulu.com/hub/tv" title="TV Shows">TV Shows</a></li>
+                    <li><a href="https://www.hulu.com/hub/movies" title="Movies">Movies</a></li>
+                    <li><a href="https://www.hulu.com/hub/originals" title="Originals">Originals</a></li>
+                    <li><a href="https://www.hulu.com/hub/networks" title="Networks">Networks</a></li>
+                    <li><a href="https://www.hulu.com/hub/kids" title="Kids">Kids</a></li>
+                    <li><a href="https://www.hulu.com/fx-on-hulu" title="FX">FX</a></li>
+                </ul>
+                <ul>
+                    <li class="list-head" style="opacity: 0;" title="BROWSE">BROWSE</li>
+                    <li><a href="https://www.hulu.com/max" title="Max">Max</a></li>
+                    <li><a href="https://www.hulu.com/cinemax" title="Cinimax">Cinimax</a></li>
+                    <li><a href="https://www.hulu.com/showtime" title="Showtime">Showtime</a></li>
+                    <li><a href="https://www.hulu.com/starz" title="STARZ">STARZ</a></li>
+                </ul>
+                <ul>
+                    <li class="list-head" style="opacity: 0;">BROWSE</li>
+                    <li><a href="https://www.hulu.com/hulu-disney-espn-bundle-offer" title="Disney Bundle Trio">Disney
+                            Bundle Trio
+                            Basic</a></li>
+                    <li><a href="https://www.hulu.com/disney-bundle-hulu-no-ads" title="Disney Bundle Trio">Disney
+                            Bundle Trio
+                            Premium</a></li>
+                    <li><a href="https://www.hulu.com/disney-bundle-duo-basic" title="Disney Bundle Duo Basic">Disney
+                            Bundle Duo Basic</a>
+                    </li>
+                    <li><a href="https://www.hulu.com/student" title="Student Discount">Student Discount</a></li>
+                </ul>
+                <ul>
+                    <li class="list-head">HELP</li>
+                    <li><a href="https://help.hulu.com/s/article/manage-subscription" title="Account & Billing">Account
+                            & Billing</a>
+                    </li>
+                    <li><a href="https://help.hulu.com/s/article/how-much-does-hulu-cost" title="Plans &
+                        Pricing">Plans &
+                            Pricing</a></li>
+                    <li><a href="https://help.hulu.com/s/article/supported-devices" title="Supported Devices">Supported
+                            Devices</a>
+                    </li>
+                    <li><a href="https://help.hulu.com/s/article/accessibility-features"
+                            title="Accesibility">Accesibility</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-head">ABOUT US</li>
+                    <li><a href="https://www.hulu.com/welcome#hulushop" title="Shop Hulu">Shop Hulu</a></li>
+                    <li><a href="https://www.hulu.com/press" title="Press">Press</a></li>
+                    <li><a href="https://www.hulu.com/jobs" title="Jobs">Jobs</a></li>
+                    <li><a href="https://help.hulu.com/s/article/how-to-contact-Hulu" title="Contact">Contact</a></li>
+                    <li><a href="https://hulu.com/guides" title="Guides | What to Watch">Guides | What to Watch</a></li>
+                </ul>
+            </div>
+            <hr class="container">
+            <div class="social-icons container">
+                <a href="#"><img src="/Asset/Images/facebook.svg" alt=""></a>
+                <a href="#"><img src="/Asset/Images/twitter.svg" alt=""></a>
+                <a href="#"><img src="/Asset/Images/youtube.svg" alt=""></a>
+                <a href="#"><img src="/Asset/Images/instagram.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="bright">
+                <span class="wright">© 2023 Hulu, LLC</span>
+            </div>
+            <div class="bright">
+                <a class="tright" href="https://info.evidon.com/pub_info/3920?v=1&nt=0&nw=false" target="_blank"
+                    rel="noopener noreferrer nofollow" aria-label="About Ads" title="About Ads">
+                    <img class="wight" src="/Asset/Images/icon1.png" role="presentation" alt="Evidon AdChoices">
+                    <span class="dire">About Ads</span>
+                </a>
+            </div>
+            <div class="bright">
+                <a class="tright" href="https://www.hulu.com/subscriber_agreement" target="_self"
+                    rel="noopener noreferrer nofollow" aria-label="Subscriber Agreement" title="Subscriber Agreement">
+                    <span class="dire">Subscriber Agreement</span>
+                </a>
+            </div>
+            <div class="bright">
+                <a class="tright" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/"
+                    target="_self" rel="noopener noreferrer nofollow" aria-label="Privacy Policy"
+                    title="Privacy Policy">
+                    <span class="dire">Privacy Policy</span>
+                </a>
+            </div>
+            <div class="bright">
+                <a class="tright" href="https://www.hulu.com/do-not-sell-my-info" target="_self" rel=""
+                    aria-label="Do Not Sell or Share My Personal Information"
+                    title="Do Not Sell or Share My Personal Information">
+                    <span class="dire">Do Not Sell or Share My Personal Information</span>
+                </a>
+            </div>
+            <div class="bright">
+                <a class="tright" href="https://www.hulu.com/ca-privacy-rights" target="_self" rel=""
+                    aria-label="Your US State Privacy Rights" title="Your US State Privacy Rights">
+                    <span class="dire">Your US State Privacy Rights</span>
+                </a>
+            </div>
+            <div class="bright">
+                <a class="tright" href="http://www.tvguidelines.org/" target="_blank" rel="noopener noreferrer nofollow"
+                    aria-label="TV Parental Guidelines" title="TV Parental Guidelines">
+                    <span class="dire">TV Parental Guidelines</span>
+                </a>
+            </div>
+            <div class="bright">
+                <a class="tright" href="https://www.hulu.com/sitemap" target="_self" rel="" aria-label="Sitemap"
+                    title="Sitemap">
+                    <span class="dire">Sitemap</span>
+                </a>
+            </div>
+        </div>
+        <br>
+    </footer>
+</body>
+<script src="/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
